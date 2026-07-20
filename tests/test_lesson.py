@@ -2,7 +2,7 @@ import clients
 
 def test_get_single_user(client):
     
-        response = client.get("users/2")
+        response = client.get_user(2)
         print(response.status)
         assert response.status == 200
 
