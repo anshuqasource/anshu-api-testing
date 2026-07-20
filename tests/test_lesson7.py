@@ -1,4 +1,5 @@
 # tests/test_lesson11.py
+import pytest
 import json
 import jsonschema
 
